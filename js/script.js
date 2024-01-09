@@ -64,6 +64,14 @@ createApp({
 
             }
             
+        },
+        addActive(i){
+            if(this.slidesIndex == i){
+                return 'active'
+            }
+            else{
+                return ''
+            }
         }
         
         
